@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(5, 8, 39);
+  height: 100%;
+  max-height: 1050;
+  min-height: 320;
+  width: 100%;
+  min-width: 480;
+  max-width: 1680;
+}
+
+.galaxy {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 50%;
+}
+
+.galaxy > div {
+  left: 150px;
+}
+
+.sun {
+  height: 200px;
+  width: 200px;
+  background-color: goldenrod;
+  border-radius: 50%;
+  /* position: static; */
+}
+
+.earth {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+  position: relative;
+  bottom: 50px;
+  /* left: 150px; */
+}
+
+.moon {
+  height: 30px;
+  width: 30px;
+  background-color: darkgray;
+  border-radius: 50%;
+  position: relative;
+  bottom: 150px;
+  /* left: 150px; */
+}
+
+.spaceship {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20%;
+}
+
+.spaceshipbody {
+  height: 20px;
+  width: 50px;
+  background-color: white;
+  position: relative;
+  /* bottom: 300px; */
+  left: 300px;
+}
+
+.spaceshiphead {
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent; 
+  border-right: 12px solid red;
+  position: relative;
+  /* bottom: 300; */
+  left: 225;
+}
+
+.spaceshiptail {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid gray;
+  position: relative;
+  /* bottom: 300; */
+  left: 295px;
+  z-index: -1;
+}
+
+.spaceshipwindow {
+  height: 10px;
+  width: 10px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  /* bottom: 300; */
+  left: 235px;
+}
+
+.spaceshipfire {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 150px solid orange;
+  border-radius: 50%;
+  position: relative;
+  /* bottom: 300; */
+  left: 275px;
+}
+
+
+
